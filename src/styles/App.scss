@@ -1,0 +1,12 @@
+@import './variables.scss';
+
+.App{
+    height: 100vh;
+    background-image: url('../bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+    font-family: $textFont;
+    font-size: 1em;
+    color: $textColor;
+}

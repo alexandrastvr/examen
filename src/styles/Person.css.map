@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,YAAY,CAAA;EACR,SAAS,EAAE,KAAK;EAChB,gBAAgB,ECJT,OAAO;EDKd,UAAU,ECHF,mBAAmB,CAAC,GAAG,CAAC,IAAI,CAAC,IAAI,EAAE,mBAAmB,CAAC,GAAG,CAAE,KAAI,CAAC,IAAI,EAAE,mBAAmB,CAAC,GAAG,CAAC,GAAG,CAAC,GAAG,EAAE,mBAAmB,CAAC,GAAG,CAAC,IAAI,CAAC,IAAI,EAAE,mBAAmB,CAAC,GAAG,CAAE,IAAG,CAAC,GAAG;CDItL",
+    "sources": [
+        "Person.scss",
+        "variables.scss"
+    ],
+    "names": [],
+    "file": "Person.css"
+}

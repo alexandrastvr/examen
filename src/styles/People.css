@@ -1,0 +1,74 @@
+.people {
+  position: relative;
+}
+
+.buttons::before {
+  position: absolute;
+  content: '';
+  width: 2px;
+  height: 500%;
+  top: -200%;
+  left: 110%;
+  background-color: #d63384;
+}
+
+.buttons {
+  position: absolute;
+  left: -50%;
+  top: 30%;
+}
+
+.buttons p {
+  font-size: 1.2em;
+  color: #5a4851;
+}
+
+.people h3 {
+  font-size: 3em;
+  color: #2B0A1A;
+}
+
+.buttons button {
+  border: none;
+  font-size: 1.2em;
+}
+
+.effect2 {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  font-weight: 600;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: -webkit-gradient(linear, left top, right top, from(#2B0A1A), color-stop(50%, #2B0A1A), color-stop(50%, #d63384));
+  background-image: linear-gradient(to right, #2B0A1A, #2B0A1A 50%, #d63384 50%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#d63384), color-stop(50%, #d63384), color-stop(50%, #2B0A1A));
+  background-image: linear-gradient(to right, #d63384, #d63384 50%, #2B0A1A 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.effect2::before {
+  z-index: 0;
+  content: ' ';
+  background-color: #d63384;
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.effect2:hover::before {
+  width: 100%;
+}
+
+.effect2:hover {
+  background-position: 0%;
+}
+/*# sourceMappingURL=People.css.map */

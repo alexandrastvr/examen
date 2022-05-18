@@ -1,0 +1,11 @@
+.App {
+  height: 100vh;
+  background-image: url("../bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5%;
+  font-family: "Markazi Text", serif;
+  font-size: 1em;
+  color: #2e260f;
+}
+/*# sourceMappingURL=App.css.map */
