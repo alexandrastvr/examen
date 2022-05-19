@@ -4,7 +4,7 @@ import '../../styles/Person.css';
 function Person(props) {
     const {name, surname, job, salary} = props;
   return (
-    <p className='person-item mt-3 mb-3 p-3 w-50'>{name} {surname}, {job}, {salary}RON</p>
+    <p className='person-item mt-3 mb-3 p-3 w-100'>{name} {surname}, {job}, {salary}RON</p>
   )
 }
 

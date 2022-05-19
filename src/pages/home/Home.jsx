@@ -5,9 +5,9 @@ import '../../styles/Home.css';
 
 function Home() {
   return (
-    <div className='home container w-25 d-flex flex-column align-items-start'>
+    <div className='home'>
         <Link to={'/people'} className='mb-5' style={{textDecoration:'none', color:'black'}}>
-            <div className='linkPg mb-3 effect'>Vezi lista!</div>
+            <span className='linkPg mb-5 effect'>Vezi lista!</span>
         </Link>
         <Form />
     </div>

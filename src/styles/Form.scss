@@ -1,11 +1,24 @@
+@import './variables.scss';
 .add-form {
     background-color: $divColor;
-    padding: 10%;
     box-shadow: $boxShadow;
+    padding: 10%;
 }
 .add-form h3{
     font-size: 3em;
 }
 .home button{
     font-size: 5em;
+}
+
+@media (max-height: 700px) {
+    .add-form h3{
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 500px) {
+    .add-form h3{
+        font-size: 2em;
+    }
 }

@@ -30,8 +30,8 @@ class Form extends React.Component {
                                       )
                                       }
                           } 
-               className='add-form d-flex flex-column'>
-              <h3 className='mb-5'>Adauga o persoana!</h3>
+               className='add-form d-flex flex-column mt-3'>
+              <h3 className='mb-4'>Adauga o persoana!</h3>
                   <div className="form-floating mb-3">
                       <input type="text" onChange={(event) => this.setState({name: event.target.value})}
                                          className="form-control" id="nume" placeholder="Nume"/>
@@ -54,7 +54,7 @@ class Form extends React.Component {
                   </div>
                   <label htmlFor='data' className='mb-1'>Data angajarii:</label>
                   <input type='date' onChange={(event) => this.setState({employmentDate: event.target.value})}
-                                     className='mb-5 align-self-start'></input>
+                                     className='mb-4 align-self-start'></input>
                   <input type='submit' className='btn btn-outline-dark btn-lg align-self-start'></input>
           </form>
         )

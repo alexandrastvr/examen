@@ -5,3 +5,9 @@
     background-color: $divColor;
     box-shadow: $boxShadow;
 }
+
+@media(max-width: 800px) {
+    .person-item{
+        font-size: 1em;
+    }
+}

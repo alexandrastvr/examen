@@ -34,22 +34,24 @@ class People extends React.Component {
   }
   render() {
     return (
-      <div className='container w-50 people'>
-        <Link to={'/'} className='mb-5' style={{textDecoration:'none', color:'black'}}>
-            <div className='linkPg mb-5 effect' style={{width: '6.5em'}}>Inapoi la formular</div>
-        </Link>
-        <div className='buttons d-flex flex-column align-items-end'>
-            <p className='mt-5 '>Sorteaza dupa...</p>
-            <button onClick={() => this.orderByName()} className='effect2 mb-2'>Nume</button>
-            <button onClick={() => this.orderBySalary()} className='effect2 mb-2'>Salariu</button>
-            <p className='mt-5'>Filtreaza persoanele cu salariu intre...</p>
-            <button onClick={() => this.filterFirst()} className='effect2 mb-2'> &#60;2500</button>
-            <button onClick={() => this.filterSecond()} className='effect2 mb-2'> 2500 - 4000</button>
-            <button onClick={() => this.filterThird()} className='effect2 mb-2'> &#62;4000</button>
-            
-        </div>
-        <h3 className='mt-5 mb-4'>Persoanele adaugate</h3>
-        <List people= {this.state.people}/>
+      <div className='people  container d-flex flex-row align-items-center justify-content-center'>
+       
+        
+          <div className='buttons me-3 ms-5 d-flex flex-column align-items-end'>
+              <Link to={'/'} className='mb-5' style={{textDecoration:'none', color:'black'}}>
+                <span className='linkPg mt-3 ms-5 mb-5 effect' style={{width: '6.5em'}}>Inapoi la formular</span>
+              </Link>
+              <p className='mt-5 '>Sorteaza dupa...</p>
+              <button onClick={() => this.orderByName()} className='effect2 mb-2'>Nume</button>
+              <button onClick={() => this.orderBySalary()} className='effect2 mb-2'>Salariu</button>
+              <p className='mt-5'>Filtreaza persoanele cu salariu intre...</p>
+              <button onClick={() => this.filterFirst()} className='effect2 mb-2'> &#60;2500</button>
+              <button onClick={() => this.filterSecond()} className='effect2 mb-2'> 2500 - 4000</button>
+              <button onClick={() => this.filterThird()} className='effect2 mb-2'> &#62;4000</button>
+              
+          </div>
+          <List people= {this.state.people}/>
+        
       </div>
     )
   }

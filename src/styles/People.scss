@@ -1,21 +1,21 @@
 @import './variables.scss';
-.people{
-    position: relative;
-}
+// .people{
+//     position: relative;
+//     border: 1px solid black;
+// }
 .buttons::before{
     position: absolute;
     content: '';
     width: 2px;
     height: 500%;
     top: -200%;
-    left: 110%;
+    left: 102%;
     background-color: $pinkColor;
 }
 .buttons{
-    position: absolute;
-    left: -50%;
-    top: 30%;
+    position: relative;
 }
+
 .buttons p{
     font-size: 1.2em;
     color: $secondaryTextColor;
@@ -59,4 +59,19 @@
 }
 .effect2:hover{
     background-position: 0%;
+}
+
+@media (max-width: 800px) {
+    .buttons p{
+        font-size: 1em;
+    }
+    .people h3{
+        font-size: 2em;
+    }
+    .buttons button{
+        font-size: 1em;
+    }
+    .effect2{
+        font-size: 1em;
+    }
 }

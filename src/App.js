@@ -7,7 +7,7 @@ import Page404 from './pages/Page404';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App d-flex align-items-center justify-content-center">
       <Switch>
         <Route exact path='/' component={Home} />
         <Route exact path='/people' component={People} />

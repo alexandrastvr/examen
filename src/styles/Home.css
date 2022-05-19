@@ -6,8 +6,8 @@
   text-decoration: none;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: -webkit-gradient(linear, left top, right top, from(#2e260f), color-stop(50%, #2e260f), color-stop(50%, #d63384));
-  background-image: linear-gradient(to right, #2e260f, #2e260f 50%, #d63384 50%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#2B0A1A), color-stop(50%, #2B0A1A), color-stop(50%, #d63384));
+  background-image: linear-gradient(to right, #2B0A1A, #2B0A1A 50%, #d63384 50%);
   background-size: 200% 100%;
   background-position: -100%;
   -webkit-transition: all 0.5s ease-in-out;
@@ -18,7 +18,7 @@
 .effect::before {
   z-index: 0;
   content: ' ';
-  background-color: #2e260f;
+  background-color: #2B0A1A;
   width: 0;
   height: 2px;
   position: absolute;
